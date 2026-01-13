@@ -162,3 +162,18 @@ h2 {
   transform: translateY(-2px);
 }
 
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.contact p {
+  max-width: 600px;
+  margin: 20px auto 30px;
+  font-size: 16px;
+}
+
+.contact-links .btn {
+  margin: 10px;
+}

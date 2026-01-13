@@ -120,3 +120,27 @@ h2 {
   color: #333;
   margin-bottom: 15px;
 }
+
+.skills {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skill img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 14px;
+  font-weight: 500;
+}
